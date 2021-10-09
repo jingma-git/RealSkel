@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shader/shader_line.vert</file>
+        <file>shader/shader_line.geom</file>
+        <file>shader/shader_line.frag</file>
+        <file>shader/shader_point.vert</file>
+        <file>shader/shader_point.geom</file>
+        <file>shader/shader_point.frag</file>
+        <file>shader/shader_sketch.vert</file>
+        <file>shader/shader_sketch.frag</file>
+        <file>shader/shader_texture.vert</file>
+        <file>shader/shader_texture.frag</file>
+        <file>shader/shader_mesh.vert</file>
+        <file>shader/shader_mesh.frag</file>
+        <file>shader/shader_mesh_with_texture.vert</file>
+        <file>shader/shader_mesh_with_texture.frag</file>
+        <file>images/canvas.jpg</file>
+    </qresource>
+</RCC>

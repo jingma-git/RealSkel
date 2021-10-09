@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="hl">
+      <item>
+       <widget class="QMdiArea" name="mdiArea"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>805</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionSplit_Viewer"/>
+    <addaction name="actionSplit_to_Four_Viewers"/>
+    <addaction name="actionAdd_Viewer"/>
+    <addaction name="actionRearange_Viewer"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <widget class="QMenu" name="menuTransformation">
+     <property name="title">
+      <string>Transformation</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="separator"/>
+     <addaction name="actionTranslation"/>
+     <addaction name="actionRotate"/>
+     <addaction name="actionScale"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="actionPick"/>
+    <addaction name="actionMerge"/>
+    <addaction name="menuTransformation"/>
+    <addaction name="actionShape_Deformation"/>
+   </widget>
+   <widget class="QMenu" name="menuSkeleton">
+    <property name="title">
+     <string>Skeleton</string>
+    </property>
+    <addaction name="actionAuto_Generate"/>
+    <addaction name="actionPoint_Handle"/>
+    <addaction name="actionBone_Handle"/>
+   </widget>
+   <addaction name="menuView"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuSkeleton"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="actionPick"/>
+   <addaction name="actionRotate"/>
+   <addaction name="actionTranslation"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAdd_Viewer">
+   <property name="text">
+    <string>Add Views</string>
+   </property>
+  </action>
+  <action name="actionRearange_Viewer">
+   <property name="text">
+    <string>Rearange Views</string>
+   </property>
+  </action>
+  <action name="actionSplit_Viewer">
+   <property name="text">
+    <string>2D &amp;&amp; 3D Views</string>
+   </property>
+  </action>
+  <action name="actionSplit_to_Four_Viewers">
+   <property name="text">
+    <string>Four Views</string>
+   </property>
+  </action>
+  <action name="actionMerge">
+   <property name="text">
+    <string>Merge</string>
+   </property>
+  </action>
+  <action name="actionTranslation">
+   <property name="text">
+    <string>Move</string>
+   </property>
+  </action>
+  <action name="actionRotate">
+   <property name="text">
+    <string>Rotate</string>
+   </property>
+  </action>
+  <action name="actionScale">
+   <property name="text">
+    <string>Scale</string>
+   </property>
+  </action>
+  <action name="actionShape_Deformation">
+   <property name="text">
+    <string>Deformation</string>
+   </property>
+  </action>
+  <action name="actionAuto_Generate">
+   <property name="text">
+    <string>Auto Generate</string>
+   </property>
+  </action>
+  <action name="actionPoint_Handle">
+   <property name="text">
+    <string>Point Handle</string>
+   </property>
+  </action>
+  <action name="actionBone_Handle">
+   <property name="text">
+    <string>Bone Handle</string>
+   </property>
+  </action>
+  <action name="actionPick">
+   <property name="text">
+    <string>Pick</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
