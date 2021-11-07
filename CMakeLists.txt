@@ -2,6 +2,7 @@
 cmake_minimum_required(VERSION 3.1...3.15)
 project(shadow_play)
 
+# Set Build Type as Release
 set(CMAKE_BUILD_TYPE RELEASE)
 # set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fsanitize=address,undefined")
 set(CMAKE_CXX_STANDARD 14)
