@@ -1,5 +1,9 @@
 #include "trackball.h"
 
+#ifndef M_PI
+#define M_PI        3.14159265358979323846
+#endif
+
 TrackBall::TrackBall() : rad2deg(180.0 / M_PI)
 {
     velocity = 0.0;

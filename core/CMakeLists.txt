@@ -17,11 +17,13 @@ else()
    message("-- Not Found LIBIGL")
 endif()
 
-
-# OpenCV
-if(MSVC)
-set(OpenCV_DIR C:/thirdParty/opencv/build/install/x64/vc15/lib)
+# On Windows: need to download boost and set BOOST_INCLUDEDIR, BOOST_LIBRARYDIR C:\local\boost_1_71_0\lib64-msvc-14.1
+find_package(Boost COMPONENTS filesystem REQUIRED)
+if(Boost_FOUND)
+    message("-- Boost_INCLUDE ${Boost_INCLUDE_DIRS}")
+    message("-- Boost_LIB ${Boost_LIBRARIES}")
 endif()
+
 
 if(UNIX)
    # Eigen3
@@ -43,19 +45,12 @@ if(OpenCV_FOUND)
    include_directories(${OpenCV_INCLUDE_DIRS})
 endif()
 
-# On Windows: need to download boost and set BOOST_INCLUDEDIR, BOOST_LIBRARYDIR C:\local\boost_1_71_0\lib64-msvc-14.1
-find_package(Boost COMPONENTS filesystem REQUIRED)
-if(Boost_FOUND)
-    message("-- Boost_INCLUDE ${Boost_INCLUDE_DIRS}")
-    message("-- Boost_LIB ${Boost_LIBRARIES}")
-endif()
+
 
 # add the library that runs
 file(GLOB MILK_SRC "./*.h" "./*.cpp" "./*.c")
 # ## include
 add_library(milk STATIC ${MILK_SRC})
-# target_link_libraries(milk Threads::Threads triangle OpenMP::OpenMP_CXX)
-# target_link_libraries(milk Threads::Threads triangle igl::tetgen)
 target_link_libraries(milk PUBLIC igl::core igl::cgal igl::triangle igl::tetgen ${OpenCV_LIBS} ${Boost_LIBRARIES})
 
 # state that anybody linking to us needs to include the current source dir
