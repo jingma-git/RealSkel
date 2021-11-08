@@ -64,12 +64,12 @@ make -j8
 ./main
 ```
 ### For Windows Users
-It's highly recommended using 'visual studio code' IDE and "cmake tools from 'VS code' market place" to compile the source code.
+It's highly recommended using `VS Code` and `cmake tools from 'VS code' market place` to compile the source code.
 
 <img src="data/compile.png" alt="compile in VS Code" width="800"/>
 
 1. Select the `build type` as `Realse`
-2. Select a compiler:  `Ctrl+Shift+P`, type in `CMake: Select a Kit`, select a compiler (eg. `Visual Studio Community 2017 x86_amd64` or ``Visual Studio Community 2019 x86_amd64`)
+2. Select a compiler:  `Ctrl+Shift+P`, type in `CMake: Select a Kit`, select a compiler (eg. `Visual Studio Community 2017 x86_amd64` or `Visual Studio Community 2019 x86_amd64`)
 3. CMake Configuration: `Ctrl+Shift+P`, type in `CMake Configure`. The configuration process will automatically download all dependencies of libigl. Wait until `CMake Configuration` successfully finishes.
 
 <img src="data/configure_done.png" alt="configure_done" width="800"/>
