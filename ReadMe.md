@@ -75,7 +75,7 @@ It's highly recommended using `VS Code` and `cmake tools from 'VS code' market p
 <img src="data/configure_done.png" alt="configure_done" width="800"/>
 
 4. Build the solution:  you will find `RealSkel.sln` under directory `build/`，
-open `.sln` with Visual Studio 2017/2019 and `Build Solution`.  
+open `.sln` with Visual Studio 2017/2019, switch to `Release Mode`, and `Build Solution`.  
 
 <img src="data/build_realskel.png" alt="build" width="800"/>
 
