@@ -17,7 +17,7 @@ else()
    message("-- Not Found LIBIGL")
 endif()
 
-# On Windows: need to download boost and set BOOST_INCLUDEDIR, BOOST_LIBRARYDIR C:\local\boost_1_71_0\lib64-msvc-14.1
+# On Windows: need to download boost,  and set Boost_INCLUDEDIR, BOOST_LIBRARYDIR
 find_package(Boost COMPONENTS filesystem REQUIRED)
 if(Boost_FOUND)
     message("-- Boost_INCLUDE ${Boost_INCLUDE_DIRS}")
