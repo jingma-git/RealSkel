@@ -23,7 +23,7 @@ We provide an executable software under directory "demo_exe/".
 
 ## Dependencies
 Qt, OpenCV, Boost, Libigl(Tetgen, Triangle, CGAL, Eigen)
-Please install CMake, Qt and OpenCV first, and modify the CMakeLists.txt according to your library's install path.
+Please install Qt, OpenCV, Boost first, and modify the CMakeLists.txt according to your library's install path.
 ### Ubuntu20.04 LTS
 #### (1) Install Qt 5.12.2 
 1. Download `qt-opensource-linux-x64-5.12.2.run` from https://download.qt.io/archive/qt/5.12/5.12.2/, click `.run` to install
