@@ -99,3 +99,12 @@ class SM_Index
 // ...
 };
 ```
+
+<img src="data/SM_Index.png" alt="SM_Index" width="800"/>
+
+<img src="data/fix_no_idx_member_for_SM_Vertex_index_bug.png" alt="fix_no_idx_member_for_SM_Vertex_index_bug" width="800"/>
+
+
+
+### The lazy way
+You can also replace the file `external\libigl\external\cgal\Surface_mesh\include\CGAL\Surface_mesh\Surface_mesh.h' with  [Surface_mesh.h](data/Surface_mesh.h) .
