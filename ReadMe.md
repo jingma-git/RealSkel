@@ -53,7 +53,7 @@ We provide an executable software under directory "demo_exe/".
 
 
 Pick a joint, and hold the left-mouse-button to move. 
-<img src="data/cat_dance.gif" alt="ModelingCat" width="500"/>
+<img src="data/cat_dance.gif" alt="ModelingCat" width="800"/>
 'Dance! Dance! Dance!', too naive, too simple, the LBS deformation. Have to improve later on...
 
 ## Tested Environment
