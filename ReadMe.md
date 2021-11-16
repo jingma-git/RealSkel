@@ -10,7 +10,7 @@ We provide an executable software under directory "demo_exe/".
 ### 1. Split View: 2D View (left window), 3D View (right window)
 <img src="data/split_2views.png" alt="Split View" width="800"/>
 
-### 2. Open Image: Ctrl+O
+### 2. Open Image: Ctrl+O (demo_exe/image/cat.png)
 <img src="data/open_image.png" alt="open image" width="800"/>
 
 ### 3. Sketch a torso
