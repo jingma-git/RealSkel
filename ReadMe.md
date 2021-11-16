@@ -6,7 +6,7 @@ We provide an executable software under directory "demo_exe/".
 
 <img src="data/ModelingCat.gif" alt="ModelingCat" width="500"/>
 
-## Let's create a cat!
+## Let's create a rigged cat!
 ### 1. Split View: 2D View (left window), 3D View (right window)
 <img src="data/split_2views.png" alt="Split View" width="800"/>
 
@@ -50,7 +50,11 @@ We provide an executable software under directory "demo_exe/".
 <img src="data/skin1.png" alt="automatic skinning" width="800"/>
 <img src="data/skin2.png" alt="automatic skinning result" width="800"/>
 
-'Dance! Dance! Dance!', too naive, too simple, the LBS deformation, have to improve later on...
+
+
+Pick a joint, and hold the left-mouse-button to move. 
+<img src="data/cat_dance.gif" alt="ModelingCat" width="500"/>
+'Dance! Dance! Dance!', too naive, too simple, the LBS deformation. Have to improve later on...
 
 ## Tested Environment
 1. Ubuntu20.04 LTS, gcc-7 compiler
