@@ -159,5 +159,3 @@ class SM_Index
 ### The lazy way
 You can also replace the file `external\libigl\external\cgal\Surface_mesh\include\CGAL\Surface_mesh\Surface_mesh.h' with  [Surface_mesh.h](data/Surface_mesh.h) .
 
-
-## More Demos
