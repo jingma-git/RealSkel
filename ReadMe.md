@@ -6,6 +6,52 @@ We provide an executable software under directory "demo_exe/".
 
 <img src="data/ModelingCat.gif" alt="ModelingCat" width="500"/>
 
+## Let's create a cat!
+### 1. Split View: 2D View (left window), 3D View (right window)
+<img src="data/split_2views.png" alt="Split View" width="800"/>
+
+### 2. Open Image: Ctrl+O
+<img src="data/open_image.png" alt="open image" width="800"/>
+
+### 3. Sketch a torso
+<img src="data/sketch.png" alt="sketch" width="800"/>
+
+### 4. Adjust Contour
+<img src="data/adjust_contour.png" alt="adjust contour" width="800"/>
+
+### 5. Parameter in the pop-up window
+<img src="data/model_param.png" alt="model param" width="800"/>
+
+### 6. Create a leg in front of the torso
+<img src="data/create_a_leg.png" alt="create a leg" width="800"/>
+
+### 7. Create a symmetric leg behind the torso
+<img src="data/create_a_sym_part.png" alt="create a leg" width="800"/>
+
+### 8. View symmetric part
+<img src="data/view_sym_part.png" alt="create a leg" width="800"/>
+
+<img src="data/arbitrary_view.png" alt="create a leg" width="800"/>
+
+### 9. Create another part: press 'Space' in keybord: switch to 'Sketch Mode', you will see the colorful contour, then sketch, follow step 3-5
+<img src="data/front_leg1.png" alt="create a leg" width="800"/>
+<img src="data/front_leg2.png" alt="create a leg" width="800"/>
+<img src="data/tail.png" alt="create a tail" width="800"/>
+
+
+### 10. Create ear
+<img src="data/front_ear.png" alt="create an ear" width="800"/>
+<img src="data/ear_back.png" alt="create an ear back" width="800"/>
+
+### 11. Refine the skeleton
+<img src="data/refine_the_skeleton.png" alt="refine the skeleton" width="800"/>
+
+### 12. Finally!
+<img src="data/skin1.png" alt="automatic skinning" width="800"/>
+<img src="data/skin2.png" alt="automatic skinning result" width="800"/>
+
+'Dance! Dance! Dance!', too naive, too simple, the LBS deformation, have to improve later on...
+
 ## Tested Environment
 1. Ubuntu20.04 LTS, gcc-7 compiler
 2. Windows10, Visual Studio Community 2017/2019 x86_amd64 compiler
@@ -108,3 +154,6 @@ class SM_Index
 
 ### The lazy way
 You can also replace the file `external\libigl\external\cgal\Surface_mesh\include\CGAL\Surface_mesh\Surface_mesh.h' with  [Surface_mesh.h](data/Surface_mesh.h) .
+
+
+## More Demos

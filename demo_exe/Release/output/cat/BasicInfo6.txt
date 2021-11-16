@@ -1,0 +1,13 @@
+id:6
+isSelected:1
+parentID:0
+symToyID:-1
+layerID:0
+layerThick:0.52
+layerDepth:26
+layerAxis:2
+iniViewDir:-0 -0 -1
+autoSkel:0
+skelOpt:0
+centroid:-276.83 94.112 26
+symLine:0 0 0 0 0 0

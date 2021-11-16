@@ -1,0 +1,4 @@
+name:cat
+num_subToys:7
+curSubToyIdx:6
+parentToyIdx:0
